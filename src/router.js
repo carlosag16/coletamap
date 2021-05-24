@@ -7,6 +7,7 @@ import Profile from "./views/Profile.vue";
 import MainNavbar from "./layout/MainNavbar.vue";
 import MainFooter from "./layout/MainFooter.vue";
 import Localidades from "./views/Localidades.vue";
+import Devs from "./views/Devs.vue";
 Vue.use(Router);
 
 export default new Router({
@@ -41,6 +42,15 @@ export default new Router({
       path: "/profile",
       name: "profile",
       components: { default: Profile, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
+    },
+    {
+      path: "/Devs",
+      name: "Devs",
+      components: { default: Devs, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: "black" }

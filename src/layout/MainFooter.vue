@@ -9,7 +9,7 @@
         <ul>
           <li>
             <a href="https://www.creative-tim.com">
-              Creado por
+              Criado por
             </a>
           </li>
           <li>

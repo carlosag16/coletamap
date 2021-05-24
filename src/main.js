@@ -17,8 +17,14 @@ import App from "./App.vue";
 import router from "./router";
 import MaterialKit from "./plugins/material-kit";
 import VueGeolocation from 'vue-browser-geolocation';
+import * as VueGoogleMaps from 'vue2-google-maps';
 Vue.use(VueGeolocation);
-
+Vue.use(VueGoogleMaps, {
+  load:{
+    key:'AIzaSyBvwj9ZVlVGIjXxH7tmlO9wqNbcgINDnOQ'
+  },
+  installComponents: false
+})
 Vue.config.productionTip = false;
 
 Vue.use(MaterialKit);
