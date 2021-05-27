@@ -8,7 +8,7 @@
       <nav>
         <ul>
           <li>
-            <a href="https://www.creative-tim.com">
+            <a href="#/Devs">
               Criado por
             </a>
           </li>

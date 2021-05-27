@@ -41,9 +41,9 @@
                   </div>
                   <h4 class="info-title">Cuide do lixo</h4>
                   <p>
-                    Texto simples da importancia do descarte correto do lixo
-                    gegegagaegagaeggaergeargaerg
-                    gaegaergaergaergaergaergraegraeg
+                    Para o descarte correto do lixo, lembre-se de lavar as embalagens antes de separá-la, 
+                    caso não seja possível limpar e tenha resto de material orgânico, 
+                    escolha a lixeira para o descarte orgânico.
                   </p>
                 </div>
               </div>
@@ -52,13 +52,17 @@
                   <div class="icon icon-success">
                     <md-icon>verified_user</md-icon>
                   </div>
-                  <h4 class="info-title">Verified Users</h4>
+                  <h4 class="info-title">Separação</h4>
                   <p>
-                    Divide details about your product or agency work into parts.
-                    Write a few lines about each one. A paragraph describing a
-                    feature will be enough.
+                   Para o <span :class="vermelho">plástico</span> utilizamos a cor vermelha,
+                   para o <span :class="azul">papel</span> a lixeira é azul,
+                   <span :class="amarelo">metal</span> a cor usada é amarelo,
+                   <span :class="verde">verde</span> jogamos o lixo na lixiera verde e 
+                   por fim <span :class="marrom">marrom</span> para material orgânico.
                   </p>
                 </div>
+                <img :src="lixeira"
+                /> 
               </div>
               <div class="md-layout-item md-medium-size-33 md-small-size-100">
                 <div class="info">
@@ -226,7 +230,7 @@
           </div>
         </div>
       </div> -->
-      <div class="section section-contacts">
+      <!-- <div class="section section-contacts">
         <div class="container">
           <div class="md-layout">
             <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
@@ -265,7 +269,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -289,6 +293,10 @@ export default {
     teamImg3: {
       type: String,
       default: require("@/assets/img/faces/kendall.jpg")
+    },
+    lixeira:{
+      type: String,
+      default: require("@/assets/img/lixeiras.jpg")
     }
   },
   data() {
@@ -296,7 +304,12 @@ export default {
       name: null,
       email: null,
       message: null,
-      estaAtivo: true
+      estaAtivo: true,
+      vermelho: "vermelho",
+      azul: "azul",
+      amarelo: "amarelo",
+      verde: "verde",
+      marrom:"marrom"
     };
   },
   computed: {
@@ -328,6 +341,21 @@ export default {
 }
 .titlecolor{
   color: red;
+}
+.vermelho{
+  color: red;
+}
+.azul{
+  color: blue;
+}
+.amarelo{
+  color: rgb(119, 119, 4);
+}
+.verde{
+  color: green;
+}
+.marrom{
+  color: brown;
 }
 
 

@@ -8,6 +8,7 @@ import MainNavbar from "./layout/MainNavbar.vue";
 import MainFooter from "./layout/MainFooter.vue";
 import Localidades from "./views/Localidades.vue";
 import Devs from "./views/Devs.vue";
+// import teste01 from "./views/teste01.vue";
 Vue.use(Router);
 
 export default new Router({
@@ -64,7 +65,16 @@ export default new Router({
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: "black" }
       }
-    }
+    },
+    // {
+    //   path: "/teste01",
+    //   name: "teste01",
+    //   components: { default: teste01, header: MainNavbar, footer: MainFooter },
+    //   props: {
+    //     header: { colorOnScroll: 400 },
+    //     footer: { backgroundColor: "black" }
+    //   }
+    // }
   ],
   scrollBehavior: to => {
     if (to.hash) {
