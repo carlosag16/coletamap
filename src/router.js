@@ -8,7 +8,7 @@ import MainNavbar from "./layout/MainNavbar.vue";
 import MainFooter from "./layout/MainFooter.vue";
 import Localidades from "./views/Localidades.vue";
 import Devs from "./views/Devs.vue";
-// import teste01 from "./views/teste01.vue";
+//import teste01 from "./views/teste01.vue";
 Vue.use(Router);
 
 export default new Router({

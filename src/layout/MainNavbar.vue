@@ -8,7 +8,9 @@
   >
     <div class="md-toolbar-row md-collapse-lateral">
       <div class="md-toolbar-section-start">
+        <a href="#/">
         <h3 class="md-title">ColetaMap</h3>
+        </a>
       </div>
       <div class="md-toolbar-section-end">
         <md-button
