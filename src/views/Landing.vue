@@ -37,7 +37,7 @@
               <div class="md-layout-item md-medium-size-33 md-small-size-100">
                 <div class="info">
                   <div class="icon icon-info">
-                    <md-icon>chat</md-icon>
+                    <md-icon>recycling</md-icon>
                   </div>
                   <h4 class="info-title">Cuide do lixo</h4>
                   <p>
@@ -68,13 +68,12 @@
               <div class="md-layout-item md-medium-size-33 md-small-size-100">
                 <div class="info">
                   <div class="icon icon-danger">
-                    <md-icon>fingerprint</md-icon>
+                    <md-icon>map</md-icon>
                   </div>
-                  <h4 class="info-title">Fingerprint</h4>
+                  <h4 class="info-title">Local correto de descarte</h4>
                   <p>
-                    Divide details about your product or agency work into parts.
-                    Write a few lines about each one. A paragraph describing a
-                    feature will be enough.
+                    Atráves da nossa plataforma, saiba qual o local correto para descartar seu lixo.
+                    Saíba o local mais próximo de você com o nosso mapa <a href="#/Localidades">clicando aqui.</a>
                   </p>
                 </div>
               </div>

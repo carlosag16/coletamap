@@ -71,7 +71,7 @@
                 v-if="showDownload"
               >
                 <i class="material-icons">content_paste</i>
-                <p>Documentation</p>
+                <p>Documentação</p>
               </md-list-item>
 
               <md-list-item
