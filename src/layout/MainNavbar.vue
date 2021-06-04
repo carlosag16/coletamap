@@ -102,21 +102,21 @@
                         <li>
                           <a href="#/landing">
                             <i class="material-icons">view_day</i>
-                            <p>Landing Page</p>
+                            <p>Página inicial</p>
                           </a>
                         </li>
                         <li>
-                          <a href="#/login">
-                            <i class="material-icons">fingerprint</i>
-                            <p>Login Page</p>
+                          <a href="#/Devs">
+                            <i class="material-icons">account_circle</i>
+                            <p>Desenvolvedores</p>
                           </a>
                         </li>
-                        <li>
+                        <!-- <li>
                           <a href="#/profile">
                             <i class="material-icons">account_circle</i>
                             <p>Perfil</p>
                           </a>
-                        </li>
+                        </li> -->
                       </ul>
                     </drop-down>
                   </div>
