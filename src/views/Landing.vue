@@ -25,10 +25,9 @@
             >
               <h2 class="title text-center">Lixo joga no lugar certo!</h2>
               <h5 class="description">
-                hgongeogneln egne ge ewgem geige weiujgwjgwklg 09ugw gwig g  gwopkjglwmgw w gwjfw fwfwif wfw fowf wf wfw fwf wf w9f wfow f0w-f wf wfow
-                wjpiwmglçwg wgwgw gwig wgw gwgjw gw9ug wg wgwg wg wgw gwg 
-                 w0gjwp gw gw9g wg wgiw giwg nw fw9fguw fwjfiwjfpwf
-                 wfwfwfiwf-wkfwf
+                O lixo gerado em uma grande cidade por dia é extremamente exagerado e sem controle. Para temos um parâmetro
+                no Brasil, em 2018, foi produzido 79 milhões de toneladas. Segundo <a href="https://piaui.folha.uol.com.br/40-do-lixo-produzido-no-brasil-em-2019-foi-descartado-incorretamente/">nossa fonte</a>, 
+                do lixo coletado, apenas 40% é descartado corretamente. Agora entenda como você pode fazer a sua parte ara melhorar não só a sua cidade mas também a saúde das pessoas.
               </h5>
             </div>
           </div>
@@ -37,13 +36,13 @@
               <div class="md-layout-item md-medium-size-33 md-small-size-100">
                 <div class="info">
                   <div class="icon icon-info">
-                    <md-icon>chat</md-icon>
+                    <md-icon>recycling</md-icon>
                   </div>
                   <h4 class="info-title">Cuide do lixo</h4>
                   <p>
-                    Texto simples da importancia do descarte correto do lixo
-                    gegegagaegagaeggaergeargaerg
-                    gaegaergaergaergaergaergraegraeg
+                    Para o descarte correto do lixo, lembre-se de lavar as embalagens antes de separá-la, 
+                    caso não seja possível limpar e tenha resto de material orgânico, 
+                    escolha a lixeira para o descarte orgânico.
                   </p>
                 </div>
               </div>
@@ -52,216 +51,31 @@
                   <div class="icon icon-success">
                     <md-icon>verified_user</md-icon>
                   </div>
-                  <h4 class="info-title">Verified Users</h4>
+                  <h4 class="info-title">Separação</h4>
                   <p>
-                    Divide details about your product or agency work into parts.
-                    Write a few lines about each one. A paragraph describing a
-                    feature will be enough.
+                   Para o <span :class="vermelho">plástico</span> utilizamos a cor vermelha,
+                   para o <span :class="azul">papel</span> a lixeira é azul,
+                   <span :class="amarelo">metal</span> a cor usada é amarelo,
+                   <span :class="verde">verde</span> jogamos o lixo na lixiera verde e 
+                   por fim <span :class="marrom">marrom</span> para material orgânico.
                   </p>
                 </div>
+                <br>
+                <img :src="lixeira"
+                /> 
               </div>
               <div class="md-layout-item md-medium-size-33 md-small-size-100">
                 <div class="info">
                   <div class="icon icon-danger">
-                    <md-icon>fingerprint</md-icon>
+                    <md-icon>map</md-icon>
                   </div>
-                  <h4 class="info-title">Fingerprint</h4>
+                  <h4 class="info-title">Local correto de descarte</h4>
                   <p>
-                    Divide details about your product or agency work into parts.
-                    Write a few lines about each one. A paragraph describing a
-                    feature will be enough.
+                    Atráves da nossa plataforma, saiba qual o local correto para descartar seu lixo.
+                    Saíba o local mais próximo de você com o nosso mapa <a href="#/Localidades">clicando aqui.</a>
                   </p>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="section text-center"> -->
-        <!-- <div class="container">
-          <h2 class="title">Here is our team</h2>
-          <div class="team">
-            <div class="md-layout">
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
-                      <img
-                        :src="teamImg1"
-                        alt="Thumbnail Image"
-                        class="img-raised rounded-circle img-fluid"
-                      />
-                    </div>
-                    <h4 class="card-title">
-                      Gigi Hadid
-                      <br />
-                      <small class="card-description text-muted">Model</small>
-                    </h4>
-
-                    <md-card-content>
-                      <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
-                      </p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-instagram"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-facebook-square"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
-                </div>
-              </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
-                      <img
-                        :src="teamImg2"
-                        alt="Thumbnail Image"
-                        class="img-raised rounded-circle img-fluid"
-                      />
-                    </div>
-                    <h4 class="card-title">
-                      Carla Hortensia
-                      <br />
-                      <small class="card-description text-muted"
-                        >Designer</small
-                      >
-                    </h4>
-
-                    <md-card-content>
-                      <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
-                      </p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-linkedin"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
-                </div>
-              </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
-                      <img
-                        :src="teamImg3"
-                        alt="Thumbnail Image"
-                        class="img-raised rounded-circle img-fluid"
-                      />
-                    </div>
-                    <h4 class="card-title">
-                      Kendall Jenner
-                      <br />
-                      <small class="card-description text-muted">Model</small>
-                    </h4>
-
-                    <md-card-content>
-                      <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
-                      </p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-instagram"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-facebook-square"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <div class="section section-contacts">
-        <div class="container">
-          <div class="md-layout">
-            <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
-              <h2 class="text-center title">Work with us</h2>
-              <h4 class="text-center description">
-                Divide details about your product or agency work into parts.
-                Write a few lines about each one and contact us about any
-                further collaboration. We will responde get back to you in a
-                couple of hours.
-              </h4>
-              <form class="contact-form">
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Name</label>
-                      <md-input v-model="name" type="text"></md-input>
-                    </md-field>
-                  </div>
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Email</label>
-                      <md-input v-model="email" type="email"></md-input>
-                    </md-field>
-                  </div>
-                </div>
-                <md-field maxlength="5">
-                  <label>Your Message</label>
-                  <md-textarea v-model="message"></md-textarea>
-                </md-field>
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-33 mx-auto text-center">
-                    <md-button class="md-success">Send Message</md-button>
-                  </div>
-                </div>
-              </form>
             </div>
           </div>
         </div>
@@ -289,6 +103,10 @@ export default {
     teamImg3: {
       type: String,
       default: require("@/assets/img/faces/kendall.jpg")
+    },
+    lixeira:{
+      type: String,
+      default: require("@/assets/img/lixeiras.jpg")
     }
   },
   data() {
@@ -296,7 +114,12 @@ export default {
       name: null,
       email: null,
       message: null,
-      estaAtivo: true
+      estaAtivo: true,
+      vermelho: "vermelho",
+      azul: "azul",
+      amarelo: "amarelo",
+      verde: "verde",
+      marrom:"marrom"
     };
   },
   computed: {
@@ -328,6 +151,21 @@ export default {
 }
 .titlecolor{
   color: red;
+}
+.vermelho{
+  color: red;
+}
+.azul{
+  color: blue;
+}
+.amarelo{
+  color: rgb(119, 119, 4);
+}
+.verde{
+  color: green;
+}
+.marrom{
+  color: brown;
 }
 
 

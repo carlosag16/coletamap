@@ -8,6 +8,8 @@ import MainNavbar from "./layout/MainNavbar.vue";
 import MainFooter from "./layout/MainFooter.vue";
 import Localidades from "./views/Localidades.vue";
 import Devs from "./views/Devs.vue";
+import Informacoes from "./views/Informacoes.vue"
+//import teste01 from "./views/teste01.vue";
 Vue.use(Router);
 
 export default new Router({
@@ -60,6 +62,15 @@ export default new Router({
       path: "/Localidades",
       name: "Localidades",
       components: { default: Localidades, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
+    },
+    {
+      path: "/Informacoes",
+      name: "Informacoes",
+      components: { default: Informacoes, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: "black" }
