@@ -77,10 +77,9 @@
 
                     <md-card-content>
                       <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
+                        Sou desenvolvedora web com afinidade maior em back-end.
+                        Meus principais conhecimentos são em linguagem php, javascript e html/css.
+                        Pode ver mais sobre mim <a href="www.linkedin.com/in/fabiana-carréra"> aqui</a>
                       </p>
                     </md-card-content>
 
@@ -168,15 +167,15 @@ export default {
     },
     teamImg1: {
       type: String,
-      default: require("@/assets/img/faces/default.png")
+      default: require("@/assets/img/carlos3.jpeg")
     },
     teamImg2: {
       type: String,
-      default: require("@/assets/img/faces/default.png")
+      default: require("@/assets/img/fabiana.jpeg")
     },
     teamImg3: {
       type: String,
-      default: require("@/assets/img/faces/default.png")
+      default: require("@/assets/img/pedro.jpeg")
     }
   },
   data() {

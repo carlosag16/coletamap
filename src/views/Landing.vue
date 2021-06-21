@@ -61,8 +61,6 @@
                   </p>
                 </div>
                 <br>
-                <img :src="lixeira"
-                /> 
               </div>
               <div class="md-layout-item md-medium-size-33 md-small-size-100">
                 <div class="info">
