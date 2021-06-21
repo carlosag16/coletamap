@@ -1,0 +1,38 @@
+//Carrega a biblioteca do sensor ultrassonico
+#include <Ultrasonic.h>
+ 
+//Define os pinos para o trigger e echo
+#define pino_trigger 6
+#define pino_echo 7
+
+//Inicializa o sensor nos pinos definidos acima
+Ultrasonic ultrasonic(pino_trigger, pino_echo);
+
+//Distância minima medida pelo sensor que considera a lixeira não lotada
+float limite = 5;
+ 
+void setup()
+{
+  Serial.begin(9600);
+  Serial.println("Lendo dados do sensor...");
+}
+ 
+void loop()
+{
+  //Le as informacoes do sensor, em cm
+  float cmMsec;
+  long microsec = ultrasonic.timing();
+  cmMsec = ultrasonic.convert(microsec, Ultrasonic::CM);
+  
+  //Exibe informacoes no serial monitor
+  if(cmMsec > limite){
+    Serial.print("\n Jogue um lixo :) \n");
+    Serial.print(cmMsec);
+    delay(1000);
+  }
+  else{
+    Serial.print("\n Estou cheio\n");
+    Serial.print(cmMsec);
+    delay(1000);
+  }
+}
