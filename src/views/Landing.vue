@@ -25,10 +25,9 @@
             >
               <h2 class="title text-center">Lixo joga no lugar certo!</h2>
               <h5 class="description">
-                hgongeogneln egne ge ewgem geige weiujgwjgwklg 09ugw gwig g  gwopkjglwmgw w gwjfw fwfwif wfw fowf wf wfw fwf wf w9f wfow f0w-f wf wfow
-                wjpiwmglçwg wgwgw gwig wgw gwgjw gw9ug wg wgwg wg wgw gwg 
-                 w0gjwp gw gw9g wg wgiw giwg nw fw9fguw fwjfiwjfpwf
-                 wfwfwfiwf-wkfwf
+                O lixo gerado em uma grande cidade por dia é extremamente exagerado e sem controle. Para temos um parâmetro
+                no Brasil, em 2018, foi produzido 79 milhões de toneladas. Segundo <a href="https://piaui.folha.uol.com.br/40-do-lixo-produzido-no-brasil-em-2019-foi-descartado-incorretamente/">nossa fonte</a>, 
+                do lixo coletado, apenas 40% é descartado corretamente. Agora entenda como você pode fazer a sua parte ara melhorar não só a sua cidade mas também a saúde das pessoas.
               </h5>
             </div>
           </div>
