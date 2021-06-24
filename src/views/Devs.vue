@@ -71,7 +71,7 @@
                       Fabiana Carrera
                       <br />
                       <small class="card-description text-muted"
-                        >Desenolvedora</small
+                        >Desenolvedor</small
                       >
                     </h4>
 
